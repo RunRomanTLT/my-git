@@ -1,0 +1,11 @@
+import java.time.LocalTime;
+
+public class TimeExample {
+    public static void main(String[] args) {
+        LocalTime currentTime = LocalTime.now(); // Get the current time
+        LocalTime newTime = currentTime.plusHours(1); // Add one hour to the current time
+
+        System.out.println("Current time: " + currentTime);
+        System.out.println("Time after 1 hour: " + newTime);
+    }
+}
